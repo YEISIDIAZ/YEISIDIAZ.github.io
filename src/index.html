@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container"> <!--creamos un contenedor--->
+
+    <section id="validador"> <!--caja para validar--->
+      <h1>Validador de Tarjeta de Credito</h1>
+      <p>Jamás entregues los datos de tu tarjeta a terceros. Aplicacion para validar numeros de Tarjetas de Credito</p>
+
+
+      <h4>Número de tarjeta</h4>
+      <p>Solo se aceptan tarjetas de credito de 13 a 16 digitos</p>
+      <input type="number" id="cardNumber" placeholder="0000 0000 0000 0000">
+
+      <br>
+
+
+      <button class="buttons" id="btnValidar">Validar</button> <!--creamos un boton--->
+
+    </section>
+
+
+    <!-- ************esto se muestra cuando la tarjeta es valida ************ -->
+
+    <section id="resultado"> <!--caja resultado--->
+      <h1>¡Tarjeta Verificada!</h1>
+      <h3>Su tarjeta de credito es valida! usela bajo su propia responsabilidad</h3>
+      <br>
+
+
+
+      <button class="buttons" id="btnInicio">Inicio</button>
+    </section>
+
+    <!-- ************esto se muestra cuando la tarjeta es valida ************ -->
+
+
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+<!-- 5352621771856289 -->
+<!-- 4083952015263 -->
+<!-- × debería retornar true para "4083952015263" (25 ms) -->
+<!-- × debería retornar true para "79927398713" (13 ms) -->
+
+
+</html>
